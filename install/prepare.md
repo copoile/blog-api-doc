@@ -9,7 +9,7 @@ Window版下载地址: [https://github.com/microsoftarchive/redis/releases](http
 <br>
 Linux版下载地址:[https://redis.io/download](https://redis.io/download)
 <br>
-这里我稍微讲下redis的配置的一个点，默认情况下redis的访问是绑定本机访问的，如果需要外网访问需要修改以下三个配置:
+这里我稍微讲下redis的配置的需要注意的一个地方，默认情况下redis的访问是绑定本机访问的，如果需要外网访问需要修改以下三个配置:
  ```
 # 配置密码
 requirepass 你的密码
@@ -22,14 +22,14 @@ protected-mode no
 
 项目运行依赖于mysql服务，mysql安装篇幅稍长，网上安装教程也很多，这里我仅放出一个安装教程链接供参考。
 [Centos7 安装 Mysql 数据库](https://cloud.tencent.com/developer/article/1329000)。
-需要注意一点就是字符编码最好改为utf8mb4而不是utf8，因为表情符用utf8字符编码存不下,当然如果你确定的存储的内容不包含表情符可以配置utf8。
+需要注意一点就是字符编码最好改为utf8mb4而不是utf8，因为表情符用utf8字符编码存不下,当然如果确认存储的内容不包含表情符可以配置utf8。
 <br>
-utf8mb4具体配置如下:
+utf8mb4字符编码配置如下:
 ```
 character_set_server=utf8mb4
 init_connect='SET NAMES utf8mb4
 ```
-正确安装后新建一个名为blog_db的数据库，字符编码集选择utf8mb4，接着执行项目中sql文件夹下的blog_db.sql文件中的sql即可。
+正确安装mysql好服务后，新建一个名为blog_db的数据库，字符编码集选择utf8mb4，接着初始化系统数据即可（sql文件在项目sql文件夹下）。
 
 ## 阿里云短信服务开通
 
