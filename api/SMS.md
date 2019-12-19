@@ -2,9 +2,13 @@
 
 <p>请求方法：<span style="color:#e96900">POST</p>
 <p>请求地址：<span style="color:#e96900">/sms/send</span></p>
-<p>请求参数：<span style="color:#e96900">mobile</span>：手机号，必传</p>
-<p>Curl栗子：curl -X POST "http://127.0.1.1:9090/sms/send?mobile=15xxxxxxxxx"</p>
-<p>说明：默认情况下，验证码有效时5分钟;默认情况下，同一手机号每天只能发10次;ip限流;同一手机号限流</p>
+<p>请求参数：<span style="color:#e96900">mobile：手机号，必传</span></p>
+<p>需要access_token： <span style="color:#e96900">否</span></p>
+<p>需要管理员权限： <span style="color:#e96900">否</span></p>
+<p>接口说明：<span style="color:#e96900">默认情况下，验证码5分钟内有效，同一手机号每天只能发10次，同一ip每天只能发10次，同一手机号限流120s一次。</span></p>
+
+> ps: 接口限流基于redis实现，key前缀为limit:sms:，删除redis对应的缓存即可去掉本次限流。
+<br>
 
 发送成功：
 ```json
