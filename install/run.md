@@ -24,7 +24,7 @@ java -jar blog-api.1.0.jar
 ```
 nohup java -jar blog-api-1.0.jar >root.txt 2>&1 &
 ```
-该命令的作用就是让应用在后台运行，并将日志输出到当前目录下的root.txt文件中,命令tail -500f root.txt可监控后500行。
+该命令的作用就是让应用在后台运行，并将日志输出到当前目录下的root.txt文件中,使用命令tail -500f root.txt可监控后500行。
 
 <br>
 关闭可执行命令：

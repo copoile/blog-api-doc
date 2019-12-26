@@ -9,5 +9,5 @@
 |id   					|id		            		|
 |client_id				|客户端id	     			|
 |client_secret			|客户端秘钥					|
-|access_token_expire	|access_token有效时长		|
+|access_token_expire	|access_token有效时长			|
 |refresh_token_expire	|refresh_token_expire有效时长|

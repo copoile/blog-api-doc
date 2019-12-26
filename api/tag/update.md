@@ -11,7 +11,7 @@
 修改成功:
 ```json
 {
-  "errorCode": 0,
-  "errorMsg": "成功"
+  "code": 0,
+  "message": "成功"
 }
 ```

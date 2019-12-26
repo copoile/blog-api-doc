@@ -17,8 +17,8 @@
 
 ```json
 {
-  "errorCode": 0,
-  "errorMsg": "成功",
+  "code": 0,
+  "message": "成功",
   "data": {
     "expire": 7200,
     "access_token": "6a2dc65f-74f6-4eb6-b4d2-2eba2af4f587",

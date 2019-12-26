@@ -3,7 +3,7 @@
 ## 须知 
 项目的配置文件路径:blog-api/src/main/resources
 <br>
-项目配置文件为阶梯式，阶梯式写法是配置的一种简化写法,如
+配置文件为阶梯式写法，是配置的一种简化写法,如
 ```
 spring.test1=0
 spring.test2=1
@@ -14,7 +14,7 @@ spring
 	test1: 0
 	test2: 1
 ```
-因此，配置文件中的配置顺序、前空格不可随意更改，有严格的要求。
+因此，配置文件中的配置顺序、前空格有严格的要求，不可随意更改。
 <br>
 ## 配置文件说明
 配置文件有三个:
@@ -22,7 +22,7 @@ spring
 - application-dev.yml
 - application-prod.yml
 
-从配置文件的名字大概就可以知道这三个配置文件的作用，application.yml为基础配置文件，application-dev.yml为开发环境配置文件，application-prod.yml为生产配置文件。
+application.yml为基础配置文件，application-dev.yml为开发环境配置文件，application-prod.yml为生产配置文件。
 application.yml无论何种环境都会启用，而application-dev.yml和application-prod.yml只会启用其中一个，
 至于启动哪个取决于application.yml中的spring.profiles.active配置。
 <br>
@@ -35,7 +35,7 @@ spring:
 ```
 如需切换生产环境将dev改为prod即可。
 <br>
-application.yml文件除了spring.profiles.active需要修改调整，其他地方不建议修改。
+application.yml文件除了spring.profiles.active看情况调整修改，其他地方不建议修改。
 
 ## 端口配置
 
@@ -46,7 +46,7 @@ server:
 
 ## redis配置
 
-配置host、port、password三项，没有密码就这样空着,其他默认即可。
+配置host、port、password三项，没有密码就空着,其他默认即可。
 ```
   redis:
     host: 127.0.0.1
@@ -56,7 +56,7 @@ server:
 
 ## mysql数据库配置
 
-配置url中的ip、username、password，如果数据库端口不是3306也修改下端口，其他默认即可。
+主要配置下的urlusername、password，其他默认即可。
 
 ```
   datasource:
@@ -80,9 +80,9 @@ server:
 
 ## 系统邮箱配置
 
-这里的邮箱配置跟Foxmail的邮箱配置差不多，没用过Foxmail的伙伴可以了解下，挺好用的一个邮件收发软件。
+项目的邮箱配置跟Foxmail的邮箱配置差不多，没用过Foxmail的伙伴也可以了解下，挺好用的一个邮件收发软件。
 <br>
-这里的password为授权码，没有特别说明，密码即为授权码。协议、端口等信息到对应的邮箱平台查阅。
+password为授权码，没有特别说明，密码即为授权码。协议、端口等信息到对应的邮箱平台查阅。
 
 ```
   mail:
@@ -138,16 +138,16 @@ sms:
 
 ## 邮箱外链接配置
 
-项目接入邮件服务，邮箱绑定、文章评论等会发送html邮件，点击邮箱中链接会跳转到相关页面。
-邮件里的链接就是在这里配置的,至于配置什么取决于前端项目了。
+邮箱绑定、文章评论等会发送html邮件，点击邮箱中链接会跳转到相关页面。
+邮件里的链接就是在这里配置的,至于配置什么取决于前端项目。
 ```
 mail:
   check: http://www.poile.cn/email/verify
   article: http://www.poile.cn/article/#/
   message: http://www.poile.cn/message
 ```
-这里分别说下这三个链接的作用: 
+分别说下这三个链接的作用: 
 
-1. 绑定邮箱邮箱验证链接，后面会接一个code参数，前端拿到这code后调用邮箱绑定接口进行邮箱绑定。
-2. 文章评论或文章评论回复邮件提醒链接，点击跳转到文章详情页，而这里配置的就是文章详情页的前缀，后面会拼接对应的文章id
+1. 绑定邮箱邮箱验证链接，链接后面会带一个code参数，前端拿到这code后调用邮箱绑定接口进行邮箱绑定。
+2. 文章评论或文章评论回复邮件提醒链接，点击跳转到文章详情页，这里配置的就是文章详情页的前缀，后面会拼接对应的文章id
 3. 留言或留言回复邮件提醒链接，点击跳转到留言页面。

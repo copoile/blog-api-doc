@@ -14,22 +14,22 @@
 
 ```json
 {  
-	"errorCode": 0,  
-	"errorMsg": "成功"
+	"code": 0,  
+	"message": "成功"
 }
 ```
 <br>
 ```json
 {  
-	"errorCode": 1001, 
-	"errorMsg": "用户名或密码错误"
+	"code": 1001, 
+	"message": "用户名或密码错误"
 }
 ```
 <br>
 ```json
 {  
-	"errorCode": 0,  
-	"errorMsg": "成功",  
+	"code": 0,  
+	"message": "成功",  
 	"data": 
 	{    
 		"expire": 7200,    
@@ -40,9 +40,9 @@
 }
 ```
 
-## 错误码
+## 响应码
 
-|errorCode	|errorMsg   	    |
+|code		|message   		    |
 |:----: 	|:----:             |
 |0   		|成功		        |
 |1001		|用户名或密码错误		|

@@ -12,8 +12,8 @@
 
 ```json
 {
-  "errorCode": 0,
-  "errorMsg": "成功",
+  "code": 0,
+  "message": "成功",
   "data": "https://poile-img.nos-eastchina1.126.net/1576903866046.png"
 }
 ```
