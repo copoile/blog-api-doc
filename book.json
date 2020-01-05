@@ -1,0 +1,12 @@
+{
+"plugins": ["github", "-sharing", "splitter", "expandable-chapters-small", "code", "flexible-alerts", "lightbox"],
+"pluginsConfig": {
+    "github": {
+        "url": "https://github.com/yaohw007/blog-api"
+    }
+},
+"title": "博客API",
+"author": "yaohw",
+"description": "介绍博客API系统及接口API详细介绍。",
+"language" : "zh-hans"
+}
