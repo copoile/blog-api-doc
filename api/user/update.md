@@ -19,7 +19,7 @@
 ```
 
 <p>接口说明：<span style="color:#e96900">
-生日日期格式为yyyy-mm-dd，当前用户id不可空，更新不为null的项。
+生日日期格式为yyyy-mm-dd；当前用户id不可空；更新不为null的项。
 </span></p>
 
 更新成功：

@@ -9,4 +9,4 @@
 |id   					|id		            		|
 |name					|分类名	     				|
 |parent_id				|父id						|
-|deleted				|是否删除，1：是，0：否		|
+|deleted				|是否删除，1：是，0：否			|

@@ -6,7 +6,7 @@
 <p>需要access_token： <span style="color:#e96900">是</span></p>
 <p>需要管理员权限： <span style="color:#e96900">是</span></p>
 
-<p>接口说明：<span style="color:#e96900">支持标签名模糊查询</span></p>
+<p>接口说明：<span style="color:#e96900">支持标签名模糊查询。</span></p>
 
 获取成功:
 ```json

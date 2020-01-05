@@ -95,7 +95,9 @@ password为授权码，没有特别说明，密码即为授权码。协议、端
     jndi-name: 个人悦读分享
 
 ```
-系统邮件效果图:[http://qiniu.poile.cn/email_config.png](http://qiniu.poile.cn/email_config.png)
+示例效果：
+<br>
+![图片](http://qiniu.poile.cn/email_config.png)
 
 ## 存储配置
 
@@ -116,7 +118,8 @@ oss:
     bucket: poile
     endpoint: oss-cn-shenzhen.aliyuncs.com
 ```
-<span style="color:red">*注意*</span>:type的类型跟配置需一一对应。
+> [!TIP]
+> type的类型跟配置需一一对应！
 
 ## 短信验证码配置
 
@@ -136,17 +139,17 @@ sms:
     templateCode: 模板code
 ```
 
-## 邮箱外链接配置
+## 邮箱外链配置
 
-邮箱绑定、文章评论等会发送html邮件，点击邮箱中链接会跳转到相关页面。
-邮件里的链接就是在这里配置的,至于配置什么取决于前端项目。
+邮箱绑定、文章评论等会发送html邮件到对应用户邮箱，点击邮箱中链接会跳转到相关页面。
+邮件里的链接就是在这里配置的,如何配置取决于你的域名和前端对应页面路径。
 ```
 mail:
   check: http://www.poile.cn/email/verify
   article: http://www.poile.cn/article/#/
   message: http://www.poile.cn/message
 ```
-分别说下这三个链接的作用: 
+三个链接的作用: 
 
 1. 绑定邮箱邮箱验证链接，链接后面会带一个code参数，前端拿到这code后调用邮箱绑定接口进行邮箱绑定。
 2. 文章评论或文章评论回复邮件提醒链接，点击跳转到文章详情页，这里配置的就是文章详情页的前缀，后面会拼接对应的文章id

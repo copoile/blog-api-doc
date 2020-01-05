@@ -4,7 +4,7 @@
 <p>请求地址：<span style="color:#e96900">/user/info</span></p>
 <p>需要access_token： <span style="color:#e96900">是</span></p>
 <p>需要管理员权限： <span style="color:#e96900">否</span></p>
-<p>接口说明：<span style="color:#e96900">非管理员roleList为空列表</span></p>
+<p>接口说明：<span style="color:#e96900">前端权限菜单可根据roleList生成；用户头像可能不存在，默认头像前端指定即可。</span></p>
 
 获取成功：
 ```json
