@@ -20,9 +20,8 @@
   "code": 0,
   "message": "成功",
   "data": {
-    "expire": 7200,
     "access_token": "6a2dc65f-74f6-4eb6-b4d2-2eba2af4f587",
-    "type": "Bearer",
+    "token_type": "Bearer",
     "refresh_token": "17456dd5-5dbd-41ec-ad4f-7cf101c9ab3e"
   }
 }

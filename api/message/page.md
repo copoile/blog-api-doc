@@ -27,7 +27,8 @@
         "fromUser": {
           "id": 1,
           "nickname": "小管家",
-          "avatar": "https://poile-img.nos-eastchina1.126.net/me.png"
+          "avatar": "https://poile-img.nos-eastchina1.126.net/me.png",
+		  "admin": 1
         },
         "replyList": [
           {
@@ -37,12 +38,14 @@
             "fromUser": {
               "id": 1,
               "nickname": "小管家",
-              "avatar": "https://poile-img.nos-eastchina1.126.net/me.png"
+              "avatar": "https://poile-img.nos-eastchina1.126.net/me.png",
+			  "admin": 1
             },
             "toUser": {
               "id": 1,
               "nickname": "小管家",
-              "avatar": "https://poile-img.nos-eastchina1.126.net/me.png"
+              "avatar": "https://poile-img.nos-eastchina1.126.net/me.png",
+			  "admin": 1
             }
           }
         ]

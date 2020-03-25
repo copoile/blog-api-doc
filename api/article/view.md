@@ -4,7 +4,7 @@
 <p>请求地址：<span style="color:#e96900">/article/view/{id}</span></p>
 <p>需要access_token： <span style="color:#e96900">否</span></p>
 <p>需要管理员权限： <span style="color:#e96900">否</span></p>
-<p>接口说明：<span style="color:#e96900">用于前台查看详情时调用；返回文章内容；文章浏览次数自增一；返回上一篇和下一篇。</span></p>
+<p>接口说明：<span style="color:#e96900">用于前台查看详情时调用；返回文章内容；返回上一篇和下一篇。</span></p>
 
 获取成功：
 ```json
@@ -19,6 +19,7 @@
     "title": "string",
     "summary": "string",
     "content": "string",
+	"htmlContent": "string",
     "cover": "string",
     "status": 0,
     "viewCount": 0,

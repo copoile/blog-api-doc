@@ -19,6 +19,7 @@
     "title": "标题",
     "summary": "摘要",
     "content": "内容",
+	"htmlContent": "内容",
     "cover": "http:www.baidu.com",
     "status": 1,
     "viewCount": 0,

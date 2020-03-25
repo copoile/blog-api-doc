@@ -24,12 +24,14 @@
         "clientId": "pc",
         "clientSecret": "123456",
         "accessTokenExpire": 7200,
-        "refreshTokenExpire": 2592000
+        "refreshTokenExpire": 2592000,
+		"enableRefreshToken": 1
       },
       {
         "id": 2,
         "clientId": "test",
-        "clientSecret": "test"
+        "clientSecret": "test",
+		"enableRefreshToken": 0
       }
     ],
     "total": 2,

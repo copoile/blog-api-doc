@@ -16,7 +16,7 @@
 }
 ```
 
-<p>接口说明：<span style="color:#e96900">id为null则新增，id不为null则更新;</span></p>
+<p>接口说明：<span style="color:#e96900">id为null则新增，id不为null则更新;name和url不能为空；</span></p>
 
 保存成功：
 ```json

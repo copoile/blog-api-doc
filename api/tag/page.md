@@ -24,13 +24,11 @@
     "records": [
       {
         "id": 1,
-        "name": "测试标签1",
-        "deleted": 0
+        "name": "测试标签1"
       },
       {
         "id": 2,
-        "name": "测试标签2",
-        "deleted": 0
+        "name": "测试标签2"
       }
     ],
     "total": 2,

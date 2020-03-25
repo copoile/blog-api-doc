@@ -1,6 +1,6 @@
-## 修改文章状态
+## 文章浏览数自增
 
-<p>请求方法：<span style="color:#e96900">POST</p>
+<p>请求方法：<span style="color:#e96900">PUT</p>
 <p>请求地址：<span style="color:#e96900">/article/status/update</span></p>
 <p>请求参数：
 <br>

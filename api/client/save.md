@@ -13,7 +13,8 @@
   "clientId": "客户端id",
   "clientSecret": "客户端秘钥",
   "id": "id",
-  "refreshTokenExpire": "refresh_token有效时间"
+  "refreshTokenExpire": "refresh_token有效时间",
+  "enableRefreshToken": "是否启用refresh_token,1:是，0:否"
 }
 ```
 

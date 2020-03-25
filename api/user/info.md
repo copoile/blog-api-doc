@@ -23,6 +23,7 @@
     "avatar": "https://poile-img.nos-eastchina1.126.net/me.png",
     "status": 0,
     "createTime": "2019-10-23T16:29:49",
+	"admin": 1,
     "roleList": [
       "admin"
     ]
