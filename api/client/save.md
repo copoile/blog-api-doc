@@ -18,7 +18,7 @@
 }
 ```
 
-<p>接口说明：<span style="color:#e96900">id为null则新增，id不为null则更新;超时时间单位为秒。</span></p>
+<p>接口说明：<span style="color:#e96900">id为null则新增，id不为null则更新;超时时间单位为秒；客户端id和客户端秘钥不能为空</span></p>
 
 保存成功：
 ```json

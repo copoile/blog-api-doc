@@ -2,7 +2,7 @@
 "plugins": ["github", "-sharing", "splitter", "expandable-chapters-small", "code", "flexible-alerts", "lightbox"],
 "pluginsConfig": {
     "github": {
-        "url": "https://github.com/yaohw007/blog-api"
+        "url": "https://github.com/copoile/blog-api.git"
     }
 },
 "title": "博客API",

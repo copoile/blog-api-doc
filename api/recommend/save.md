@@ -10,9 +10,9 @@
 </p>
 <p>需要access_token： <span style="color:#e96900">是</span></p>
 <p>需要管理员权限： <span style="color:#e96900">是</span></p>
-<p>接口说明：<span style="color:#e96900">只能添加已发布文章；若已添加则更新缓存；分数越高排名越靠前。</span></p>
+<p>接口说明：<span style="color:#e96900">只能添加已发布文章；若已添加则更新缓存；分数即为排序（顺序）。</span></p>
 
-修改成功：
+保存成功：
 ```json
 {  
 	"code": 0,  

@@ -39,7 +39,7 @@
           "name": "测试"
         }
       ],
-      "recommendScore": 12
+      "recommendScore": 1
     },
     {
       "id": 2,
@@ -67,7 +67,7 @@
           "name": "测试"
         }
       ],
-      "recommendScore": 10
+      "recommendScore": 2
     }
   ]
 }

@@ -23,7 +23,7 @@ spring
 - application-prod.yml
 
 application.yml为基础配置文件，application-dev.yml为开发环境配置文件，application-prod.yml为生产配置文件。
-application.yml无论何种环境都会启用，而application-dev.yml和application-prod.yml只会启用其中一个，
+application.yml无论何种环境都会启用，而application-dev.yml和application-prod.yml
 至于启动哪个取决于application.yml中的spring.profiles.active配置。
 <br>
 启用开发环境栗子:
@@ -82,7 +82,7 @@ server:
 
 项目的邮箱配置跟Foxmail的邮箱配置差不多，没用过Foxmail的伙伴也可以了解下，挺好用的一个邮件收发软件。
 <br>
-password为授权码，没有特别说明，密码即为授权码。协议、端口等信息到对应的邮箱平台查阅。
+注意一点，password为授权码，没有特别说明，密码即为授权码。协议、端口等信息到对应的邮箱平台查阅。
 
 ```
   mail:
@@ -92,7 +92,7 @@ password为授权码，没有特别说明，密码即为授权码。协议、端
     password: password
     protocol: smtp
     default-encoding: UTF-8
-    jndi-name: 个人悦读分享
+    jndi-name: 悦读分享
 
 ```
 示例效果：
