@@ -1,4 +1,4 @@
-## 分页活动文章（前台）
+## 分页获取文章（前台）
 
 <p>请求方法：<span style="color:#e96900">GET</p>
 <p>请求地址：<span style="color:#e96900">/article/published/page</span></p>

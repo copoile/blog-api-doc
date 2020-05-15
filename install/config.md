@@ -56,7 +56,7 @@ server:
 
 ## mysql数据库配置
 
-主要配置下的urlusername、password，其他默认即可。
+主要配置下的url、username、password，其他默认即可。
 
 ```
   datasource:
@@ -92,7 +92,7 @@ server:
     password: password
     protocol: smtp
     default-encoding: UTF-8
-    jndi-name: 悦读分享
+    jndi-name: 个人阅读分享
 
 ```
 示例效果：
@@ -154,3 +154,17 @@ mail:
 1. 绑定邮箱邮箱验证链接，链接后面会带一个code参数，前端拿到这code后调用邮箱绑定接口进行邮箱绑定。
 2. 文章评论或文章评论回复邮件提醒链接，点击跳转到文章详情页，这里配置的就是文章详情页的前缀，后面会拼接对应的文章id
 3. 留言或留言回复邮件提醒链接，点击跳转到留言页面。
+
+## 配置文件外置
+
+生产环境配置文件可以外置，配置文件可以外置在jar同级目录下或jar同级目录下config目录下，程序启动是会在程序同级目录下
+找配置文件，同级目录找不到会再去同级目录下config目录下找，如果都找不到则会用程序打包时的内置配置文件。  
+配置文件外置的好处在于，如果只是修改配置文件，只需修改外置的配置文件，然后重新服务即可，比内置配置文件少了到程序源码那修改配置文件再次打包的过程。
+
+```shell
+blog-api-1.0.jar  config/
+
+config/application-dev.yml
+config/application-prod.yml
+config/application.yml
+```

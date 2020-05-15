@@ -14,7 +14,7 @@
 |title					|文章标题						|
 |summary				|文章摘要						|
 |content				|文章内容						|
-｜hmtl_content          | 文章富文本内容              ｜
+|hmtl_content          | 文章富文本内容              |
 |status					|章状态：0为正常，1为待发布，2为回收站						|
 |view_count				|文章浏览次数					|
 |comment_count			|评论数-冗余字段				|
