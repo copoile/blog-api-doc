@@ -2,6 +2,8 @@
 
 这是一个GitBook编写的博客Api文档项目。
 
+![image](./image/api-doc.png)
+
 ### 在线文档
 
 [在线文档](http://copoile.gitee.io/blog-doc)
