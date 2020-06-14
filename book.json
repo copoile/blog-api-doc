@@ -1,4 +1,7 @@
 {
+"structure": {
+	"readme": "INTRODUCE.md"
+},
 "plugins": ["github", "-sharing", "splitter", "expandable-chapters-small", "code", "flexible-alerts", "lightbox"],
 "pluginsConfig": {
     "github": {

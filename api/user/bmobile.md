@@ -1,4 +1,4 @@
-## 绑定新手机号
+## 更换手机号
 
 <p>请求方法：<span style="color:#e96900">POST</p>
 <p>请求地址：<span style="color:#e96900">/user/mobile/rebind</span></p>
